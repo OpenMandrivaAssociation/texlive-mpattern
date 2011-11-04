@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/mpattern
+# catalog-date 2006-12-15 22:34:26 +0100
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-mpattern
 Version:	20061215
 Release:	1
@@ -41,6 +47,7 @@ the Pattern Color Space available in PostScript Level 2.
 %doc %{_texmfdistdir}/doc/metapost/mpattern/mpattern_test.pdf
 %doc %{_texmfdistdir}/doc/metapost/mpattern/mpattern_test.tex
 %doc %{_texmfdistdir}/doc/metapost/mpattern/test.mp
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ the Pattern Color Space available in PostScript Level 2.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
