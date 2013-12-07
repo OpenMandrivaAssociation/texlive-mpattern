@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-mpattern
 Version:	20061215
-Release:	5
+Release:	6
 Summary:	Patterns in MetaPost
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mpattern
