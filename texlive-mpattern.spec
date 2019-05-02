@@ -5,8 +5,8 @@
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-mpattern
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Patterns in MetaPost
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mpattern
