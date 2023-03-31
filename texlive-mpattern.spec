@@ -1,6 +1,6 @@
 Name:		texlive-mpattern
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Patterns in MetaPost
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/mpattern
